@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("./.woff") format("woff"),
+    url("./.woff2") format("woff2"),
+    url("./.ttf") format("truetype");
+}
