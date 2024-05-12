@@ -1,6 +1,8 @@
 /*сбрасываем браузерные стили*/
 body {
   margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #1e1e1e;
 }
 
 h1,
@@ -18,11 +20,6 @@ blockquote {
 }
 
 /*стили*/
-body {
-  font-family: "Inter", Arial, sans-serif;
-  background-color: #1e1e1e;
-}
-
 .content-section {
   box-sizing: border-box;
   max-width: 360px;
@@ -203,7 +200,6 @@ body {
 }
 
 .card__author-photo {
-  width: 100%;
   width: 100px;
   height: 100px;
 }
