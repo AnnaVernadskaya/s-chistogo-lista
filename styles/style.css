@@ -248,3 +248,12 @@ blockquote {
   line-height: 125%;
   list-style: none;
 }
+
+.footer__link {
+  color: #f5f5f5;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__link:hover {
+  opacity: 0.5;
+}
