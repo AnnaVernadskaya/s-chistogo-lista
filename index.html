@@ -9,31 +9,31 @@
   </head>
   <body>
     <header class="header content-section content-section_theme_dark">
-      <a href="#" class="header__logo">
+      <a class="header__logo" href="#">
         <img
+          class="header__logo-image"
           src="./images/logo.svg"
           alt="логотип - слово вёрстка"
-          class="header__logo-image"
         >
       </a>
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-item header__menu-item_active">
-            <a href="#" class="header__menu-link header__menu-item_active"
+            <a class="header__menu-link header__menu-item_active" href="#"
               >Главная</a
             >
           </li>
           <li class="header__menu-item">
             <a
-              href="#"
               class="header__menu-link"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               >О нас</a
             >
           </li>
           <li class="header__menu-item">
-            <a href="#footer-links" class="header__menu-link">Контакты</a>
+            <a class="header__menu-link" href="#footer-links">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -53,7 +53,7 @@
           <h2 class="intro__title">
             8 способов борьбы со страхом чистого листа
           </h2>
-          <time class="intro__date" datetime="2022-06-05"> 05.06.2022 г </time>
+          <time class="intro__date" datetime="2022-06-05"> 05.06.2022 г</time>
         </div>
         <div class="intro__main-text">
           <p>
@@ -74,10 +74,10 @@
       </section>
 
       <section class="reasons content-section content-section_theme_bright">
-        <h3 class="content-section__subtitle">
+        <h2 class="content-section__subtitle">
           <span class="accent-span text-right">Почему чистый лист</span>
           <span class="accent-span">— такой cтрашный?</span>
-        </h3>
+        </h2>
         <p class="content-section__introduction">
           Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего
           объёма работы, которую предстоит сделать. Усилия, той точки, которую
@@ -87,53 +87,43 @@
         </p>
         <ul class="content-section__list">
           <li class="content-section__list-item">
-            <p>
-              <span class="content-section__list-accent">
-                Неуверенность в результате.
-              </span>
-              И в том, что его вообще можно достичь. Ведь как можно быть
-              уверенным, что проводишь всю работу не впустую? Что доведёшь дело
-              до конца? А тут, пока не начал, не надо и заканчивать.
-            </p>
+            <span class="content-section__list-accent">
+              Неуверенность в результате.
+            </span>
+            И в том, что его вообще можно достичь. Ведь как можно быть
+            уверенным, что проводишь всю работу не впустую? Что доведёшь дело
+            до конца? А тут, пока не начал, не надо и заканчивать.
           </li>
           <li class="content-section__list-item">
-            <p>
-              <span class="content-section__list-accent"> Страх критики. </span>
-              Если работу будет кто-то оценивать, то уже на самых ранних этапах
-              мы смотрим на неё глазами этого человека. Представляем, какие
-              недостатки в ней можно найти. После этого желание что-то делать
-              сразу пропадает.
-            </p>
+            <span class="content-section__list-accent"> Страх критики. </span>
+            Если работу будет кто-то оценивать, то уже на самых ранних этапах
+            мы смотрим на неё глазами этого человека. Представляем, какие
+            недостатки в ней можно найти. После этого желание что-то делать
+            сразу пропадает.
           </li>
           <li class="content-section__list-item">
-            <p>
-              <span class="content-section__list-accent"> Перфекционизм. </span>
-              Когда кажется, что работа не будет сделана идеально, будто бы нет
-              смысла её и начинать. В такие моменты мы можем забыть, что с
-              первого раза что-то получается довольно редко.
-            </p>
+            <span class="content-section__list-accent"> Перфекционизм.</span>
+            Когда кажется, что работа не будет сделана идеально, будто бы нет
+            смысла её и начинать. В такие моменты мы можем забыть, что с
+            первого раза что-то получается довольно редко.
           </li>
           <li class="content-section__list-item">
-            <p>
-              <span class="content-section__list-accent">
-                Отсутствие мотивации.
-              </span>
-              Как долгосрочной, так и краткосрочной. Например, если дедлайн
-              только через неделю, можно посидеть пару часов, рассматривая узоры
-              на обоях, — времени ещё вагон. Или прогуливать уроки химии в
-              школе, потому что вроде как и хочется стать нейрохирургом, но в
-              кино на «Мстителей» хочется ещё больше.
-            </p>
+            <span class="content-section__list-accent">
+              Отсутствие мотивации.
+            </span>
+            Как долгосрочной, так и краткосрочной. Например, если дедлайн
+            только через неделю, можно посидеть пару часов, рассматривая узоры
+            на обоях, — времени ещё вагон. Или прогуливать уроки химии в
+            школе, потому что вроде как и хочется стать нейрохирургом, но в
+            кино на «Мстителей» хочется ещё больше.
           </li>
           <li class="content-section__list-item">
-            <p>
-              <span class="content-section__list-accent">
-                Недостаток информации.
-              </span>
-              Начинать что-то особенно сложно, если вы новичок в теме и только
-              разбираетесь, что к чему. Вам может казаться, что каждая строчка —
-              глупость, и вообще всё, что вы сделаете, — будет неправильно.
-            </p>
+            <span class="content-section__list-accent">
+              Недостаток информации.
+            </span>
+            Начинать что-то особенно сложно, если вы новичок в теме и только
+            разбираетесь, что к чему. Вам может казаться, что каждая строчка —
+            глупость, и вообще всё, что вы сделаете, — будет неправильно.
           </li>
         </ul>
       </section>
@@ -152,9 +142,9 @@
             <article class="card card_theme_dark">
               <figure class="card__author">
                 <img
+                  class="card__author-photo"
                   src="./images/polyarinov.png"
                   alt="Алексей Поляринов"
-                  class="card__author-photo"
                 >
                 <figcaption class="card__author-name">
                   Алексей Поляринов
@@ -194,9 +184,9 @@
             <article class="card card_theme_dark">
               <figure class="card__author">
                 <img
+                  class="card__author-photo"
                   src="./images/bunin.png"
                   alt="Иван Бунин"
-                  class="card__author-photo"
                 >
                 <figcaption class="card__author-name">Иван Бунин</figcaption>
               </figure>
@@ -223,10 +213,10 @@
       <p class="footer__copy">&COPY; Vёrstka</p>
       <ul class="footer__links" id="footer-links">
         <li>
-          <a href="#" class="footer__link" target="_blank" rel="noopener noreferrer">ВК</a>
+          <a class="footer__link" href="#" target="_blank" rel="noopener noreferrer">ВК</a>
         </li>
         <li>
-          <a href="#" class="footer__link" target="_blank" rel="noopener noreferrer">Ютуб</a>
+          <a class="footer__link" href="#" target="_blank" rel="noopener noreferrer">Ютуб</a>
         </li>
       </ul>
     </footer>

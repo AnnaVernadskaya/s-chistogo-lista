@@ -1,7 +1,8 @@
 /*сбрасываем браузерные стили*/
 body {
   margin: 0;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
   background-color: #1e1e1e;
 }
 
@@ -40,12 +41,16 @@ blockquote {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   padding: 24px 20px;
 }
 
-.header__logo-image {
+.header__logo {
+  display: block;
   width: 78.5px;
-  height: 15.5px;
+}
+.header__logo-image {
+  width: 100%;
 }
 
 .header__menu-list {
@@ -55,7 +60,7 @@ blockquote {
   list-style: none;
 }
 
-.header__menu-item_active {
+.header__menu-item_active .header__menu-link {
   text-decoration: none;
 }
 
@@ -81,10 +86,10 @@ blockquote {
 }
 
 .cover__title {
-  font-family: "EB Garamond", Times, serif;
+  font-family: 'EB Garamond', Times, serif;
   font-size: 72px;
-  line-height: 100%;
   font-weight: 400;
+  line-height: 100%;
   color: #ffffff;
 }
 
@@ -104,14 +109,14 @@ blockquote {
 .intro__heading {
   display: flex;
   justify-content: space-between;
+  gap: 22px;
   padding: 0 20px 24px 20px;
   color: #ccc;
 }
 
 .intro__title {
-  max-width: 200px;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 120%;
 }
 
@@ -119,6 +124,7 @@ blockquote {
   font-size: 16px;
   font-weight: 400;
   line-height: 120%;
+  white-space: nowrap;
 }
 
 .intro__main-text {
@@ -138,7 +144,7 @@ blockquote {
 
 .content-section__subtitle {
   padding: 40px 20px 32px 20px;
-  font-family: "EB Garamond", Times, serif;
+  font-family: 'EB Garamond', Times, serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 115%;
@@ -155,19 +161,17 @@ blockquote {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  font-weight: 400;
   padding: 0 20px 40px 36px;
 }
 
 .content-section__list-item {
   font-size: 16px;
-  font-weight: 400;
   line-height: 21.6px;
 }
 
 .content-section__list-accent {
-  font-size: 16px;
   font-weight: 700;
-  line-height: 21.6px;
 }
 
 /*HOW-TO*/
@@ -213,7 +217,7 @@ blockquote {
 }
 
 .card__title {
-  font-family: "EB Garamond", Times, serif;
+  font-family: 'EB Garamond', Times, serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 135%;
